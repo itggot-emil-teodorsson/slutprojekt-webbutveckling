@@ -40,13 +40,13 @@ main{
 .meny{
     grid-row: 1/2;
     grid-column: 5/6;
-}
-
-.menyknapp {
     margin-top: 17px;
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 15px;
+}
+
+.menyknapp {
     display: inline-block;
     cursor: pointer;
 }
@@ -75,6 +75,7 @@ main{
 
 .menu p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
 }
 
 .menu{
@@ -83,10 +84,10 @@ main{
     grid-column: 5/6;
     background: white;
     border-style: solid;
-    border-color: grey;
+    border-color: rgb(94, 89, 89);
     border-width: 2px;
     margin-bottom: 30px;
-    position: absolute;
+    z-index: +1;
 }
 
 .show{
