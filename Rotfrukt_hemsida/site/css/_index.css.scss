@@ -63,6 +63,12 @@
     border-width: 2px;
 }
 
+.bild3{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    background-image: url(../img/sotpotatis.jpg)
+}
+
 .artikel4{
     grid-row: 5/6;
     grid-column: 1/3;
