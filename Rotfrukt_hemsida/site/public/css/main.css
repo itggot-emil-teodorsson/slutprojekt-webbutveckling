@@ -98,7 +98,8 @@ header .info {
     grid-row: 2/10;
     grid-column: 1/15;
     grid-template-rows: repeat(8, 1fr);
-    grid-template-columns: repeat(14, 1fr); }
+    grid-template-columns: repeat(14, 1fr);
+    background-image: url(../img/lantbruk.jpg); }
 
   .logo {
     grid-row: 1/2;
@@ -164,7 +165,8 @@ header .info {
   display: grid;
   border-style: solid;
   border-color: gray;
-  border-width: 2px; }
+  border-width: 2px;
+  background-color: rgba(255, 255, 255, 0.712); }
 
 .bild1 {
   grid-row: 1/2;
@@ -179,7 +181,8 @@ header .info {
   display: grid;
   border-style: solid;
   border-color: gray;
-  border-width: 2px; }
+  border-width: 2px;
+  background-color: rgba(255, 255, 255, 0.712); }
 
 .bild2 {
   grid-row: 1/2;
@@ -194,7 +197,8 @@ header .info {
   display: grid;
   border-style: solid;
   border-color: gray;
-  border-width: 2px; }
+  border-width: 2px;
+  background-color: rgba(255, 255, 255, 0.712); }
 
 .bild3 {
   grid-row: 1/2;
@@ -209,7 +213,8 @@ header .info {
   display: grid;
   border-style: solid;
   border-color: gray;
-  border-width: 2px; }
+  border-width: 2px;
+  background-color: rgba(255, 255, 255, 0.712); }
 
 .bild4 {
   grid-row: 1/2;
@@ -263,18 +268,73 @@ header .info {
 
 @media only screen and (min-device-width: 900px) {
   .rotfruktslista {
-    grid-row: 2/4;
+    grid-row: 2/5;
     grid-column: 4/12;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(5, 1fr);
     margin: 0px; }
 
+  .rotfruktslista h2 {
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-right: 0px;
+    margin-top: 10px; }
+
   .rotfruktslista .lists {
     grid-row: 2/7;
-    grid-column: 1/3; }
+    grid-column: 1/3;
+    grid-template-rows: inherit;
+    grid-template-columns: inherit;
+    display: grid; }
 
   .rotfruktslista .list1 {
-    grid-column: 1/2; }
+    grid-column: 1/2;
+    grid-row: 1/6;
+    margin-top: 5px;
+    margin-left: 20px; }
 
   .rotfruktslista .list2 {
-    grid-column: 2/3; } }
+    grid-column: 2/3;
+    grid-row: 1/6;
+    margin-top: 5px;
+    margin-left: 20px; }
+
+  .artiklar {
+    grid-row: 5/8;
+    grid-column: 2/14;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-row-gap: 0px;
+    grid-column-gap: 15px;
+    margin: 0px; }
+
+  .artiklar h2 {
+    margin: 0px;
+    grid-row: 3/4;
+    grid-column: 1/2;
+    z-index: +1; }
+
+  .background {
+    grid-row: 3/8;
+    grid-column: 1/5;
+    background-color: rgba(255, 255, 255, 0.712); }
+
+  .artikel1 {
+    grid-column: 1/2;
+    grid-row: 4/7;
+    z-index: +1; }
+
+  .artikel2 {
+    grid-column: 2/3;
+    grid-row: 4/7;
+    z-index: +1; }
+
+  .artikel3 {
+    grid-column: 3/4;
+    grid-row: 4/7;
+    z-index: +1; }
+
+  .artikel4 {
+    grid-column: 4/5;
+    grid-row: 4/7;
+    z-index: +1; } }
