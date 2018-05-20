@@ -437,6 +437,9 @@ header .info {
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
+.navigation a:hover {
+  color: black; }
+
 .text {
   grid-column: 1/4;
   grid-row: 3/8;
@@ -444,7 +447,7 @@ header .info {
   margin-right: 10px; }
 
 .text p {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  font-family: 'PT Serif', serif; }
 
 .bilder {
   grid-column: 4/6;
