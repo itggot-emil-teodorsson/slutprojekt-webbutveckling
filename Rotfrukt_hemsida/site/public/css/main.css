@@ -437,6 +437,12 @@ header .info {
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
+.navigation .info a {
+  margin-left: -20px; }
+
+.navigation .odlingstips a {
+  margin-right: -20px; }
+
 .navigation a:active {
   color: black; }
 
@@ -477,7 +483,8 @@ header .info {
   display: grid; }
 
 .receptlista h3 {
-  margin-left: 5px; }
+  margin-left: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
 .recept1 {
   grid-row: 1/2;
