@@ -422,7 +422,17 @@ header .info {
   grid-column: 2/3;
   text-align: center; }
 
+.navigation .info_active {
+  margin-top: 10px;
+  grid-column: 2/3;
+  text-align: center; }
+
 .navigation .recept {
+  margin-top: 10px;
+  grid-column: 3/4;
+  text-align: center; }
+
+.navigation .recept_active {
   margin-top: 10px;
   grid-column: 3/4;
   text-align: center; }
@@ -432,16 +442,44 @@ header .info {
   grid-column: 4/5;
   text-align: center; }
 
-.navigation a {
+.navigation .odlingstips_active {
+  margin-top: 10px;
+  grid-column: 4/5;
+  text-align: center; }
+
+.navigation .recept a {
   font-size: 20px;
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
+.navigation .recept_active a {
+  font-size: 20px;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
 .navigation .info a {
-  margin-left: -20px; }
+  margin-left: -20px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.navigation .info_active a {
+  margin-left: -20px;
+  font-size: 20px;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
 .navigation .odlingstips a {
-  margin-right: -20px; }
+  margin-right: -20px;
+  font-size: 20px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
+
+.navigation .odlingstips_active a {
+  margin-right: -20px;
+  font-size: 20px;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
 .navigation a:active {
   color: black; }
