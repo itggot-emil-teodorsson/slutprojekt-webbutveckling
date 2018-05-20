@@ -33,7 +33,10 @@ main{
 .logo{
     grid-row: 1/2;
     grid-column: 2/5;
-    background-image: url(../img/potatis.jpg);
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    display: grid;
+    background-image: url(../img/logo.jpg);
 }
 
 // MENYN
@@ -127,9 +130,10 @@ header .info{
 
     .logo{
         grid-row: 1/2;
-        grid-column: 1/5;
-        margin-left: 10px;
-        background-image: url(../img/potatis.jpg);
+        grid-column: 1/6;
+        margin-left: 40px;
+        margin-right: 47px;
+        background-image: url(../img/logo_desktop.jpg);
     }
 
     // MENYN
