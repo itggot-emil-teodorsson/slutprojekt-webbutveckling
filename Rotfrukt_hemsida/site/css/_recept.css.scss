@@ -1,0 +1,109 @@
+.receptlista{
+    grid-row: 3/8;
+    grid-column: 1/6;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    display: grid;
+}
+
+.receptlista h3{
+    margin-left: 5px;
+}
+
+.recept1{
+    grid-row: 1/2;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    border: solid 2px grey;
+}
+
+.recept1:active{
+    background-color: rgb(214, 214, 214);
+}
+
+.recept2{
+    grid-row: 2/3;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    border: solid 2px grey;
+}
+
+.recept2:active{
+    background-color: rgb(214, 214, 214);
+}
+
+.recept3{
+    grid-row: 3/4;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    border: solid 2px grey;
+}
+
+.recept3:active{
+    background-color: rgb(214, 214, 214);
+}
+
+.recept4{
+    grid-row: 4/5;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    border: solid 2px grey;
+}
+
+.recept4:active{
+    background-color: rgb(214, 214, 214);
+}
+
+.recept5{
+    grid-row: 5/6;    
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    border: solid 2px grey;
+}
+
+.recept5:active{
+    background-color: rgb(214, 214, 214);
+}
+
+.morotter{
+    grid-column: 2/3;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    display: grid;
+    margin-right: 5px;
+}
+
+.morot1{
+    grid-row: 2/3;
+    grid-column: 5/6;
+    background-image: url(../img/carrot.png)
+}
+
+.morot2{
+    grid-row: 2/3;
+    grid-column: 4/5;
+    background-image: url(../img/carrot.png)
+}
+
+.morot3{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background-image: url(../img/carrot.png)
+}
+
+.morot4{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-image: url(../img/carrot.png)
+}
+
+.morot5{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-image: url(../img/carrot.png)
+}
