@@ -32,6 +32,10 @@
     margin-right: 5px;
 }
 
+.tips .typ_av_jord p2{
+    display: none;
+}
+
 .tips .bevattning{
     grid-row: 6/11;
     grid-column: 1/6;
@@ -56,4 +60,73 @@
     margin-bottom: 0px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.tips .bevattning p2{
+    display: none;
+}
+
+.tips .skydd_mot_insekter{
+    display: none;
+}
+
+
+@media only screen and (min-device-width: 900px){
+    .tips{
+        grid-column: 2/14;
+        grid-row: 3/9;
+        margin-bottom: 15px;
+        background-color: rgba(255, 255, 255, 0.685);
+    }
+
+    .tips .typ_av_jord{
+        grid-row: 1/3;
+    }
+
+    .tips .typ_av_jord p2{
+        font-family: 'PT Serif', serif;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: block;
+    }
+
+    .tips .bevattning{
+        grid-row: 4/7;
+    }
+
+    .tips .bevattning p2{
+        font-family: 'PT Serif', serif;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+        display: block;
+    }
+
+    .tips .skydd_mot_insekter{
+        grid-column: 1/6;
+        grid-row: 7/11;
+        display: block;
+    }
+
+    .tips .skydd_mot_insekter h3{
+        text-decoration: underline;
+        margin-top: 10px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+        margin-right: 0px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .tips .skydd_mot_insekter p{
+        font-family: 'PT Serif', serif;
+        grid-row: 7/10;
+        grid-column: 1/6;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
