@@ -72,6 +72,10 @@
     background-color: rgb(214, 214, 214);
 }
 
+.recept6{
+    display: none;
+}
+
 .morotter{
     grid-column: 2/3;
     grid-template-rows: repeat(3, 1fr);
@@ -108,4 +112,43 @@
     grid-row: 2/3;
     grid-column: 1/2;
     background-image: url(../img/carrot.png)
+}
+
+
+
+@media only screen and (min-device-width: 900px){
+    // RECEPTLISTA
+    .receptlista{
+        grid-column: 1/15;
+        grid-row: 3/9;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .receptlista h3{
+        font-size: 30px;
+        margin-bottom: 0px;
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .recept6{
+        grid-row: 6/7;    
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        border: solid 2px grey;
+    }
+
+    .receptlista .recept1, .recept2, .recept3, .recept4, .recept5, .recept6{
+        background-color: rgba(255, 255, 255, 0.685);
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .receptlista .recept1:hover, .recept2:hover, .recept3:hover, .recept4:hover, .recept5:hover, .recept6:hover{
+        background-color: rgba(150, 150, 150, 0.685);
+    }
+
+    .morotter{
+        grid-column: 5/6;
+    }
 }
