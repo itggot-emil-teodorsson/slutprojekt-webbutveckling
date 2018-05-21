@@ -484,9 +484,16 @@ header .info {
 .navigation a:active {
   color: black; }
 
+.text_and_pics {
+  grid-column: 1/6;
+  grid-row: 3/8;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  display: grid; }
+
 .text {
   grid-column: 1/4;
-  grid-row: 3/8;
+  grid-row: 1/6;
   margin-left: 10px;
   margin-right: 10px; }
 
@@ -494,9 +501,12 @@ header .info {
   font-family: 'PT Serif', serif;
   margin: 0px; }
 
+.text p2 {
+  display: block; }
+
 .bilder {
   grid-column: 4/6;
-  grid-row: 3/8;
+  grid-row: 1/6;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(5, 1fr);
   display: grid;
@@ -514,6 +524,99 @@ header .info {
   border: solid grey 2px;
   margin-right: 10px; }
 
+@media only screen and (min-device-width: 900px) {
+  .titel {
+    grid-column: 1/15; }
+
+  .titel h2 {
+    font-size: 60px; }
+
+  .navigation {
+    grid-column: 1/15; }
+
+  .navigation .info a {
+    margin-left: 0px;
+    font-size: 30px; }
+
+  .navigation .info a:hover {
+    color: black;
+    margin-right: 4px;
+    text-shadow: 2px 2px white; }
+
+  .navigation .info_active a {
+    margin-left: 0px;
+    font-size: 30px; }
+
+  .navigation .recept a {
+    font-size: 30px; }
+
+  .navigation .recept a:hover {
+    color: black;
+    margin-right: 4px;
+    text-shadow: 2px 2px white; }
+
+  .navigation .recept_active a {
+    font-size: 30px; }
+
+  .navigation .odlingstips a {
+    margin-right: 0px;
+    font-size: 30px; }
+
+  .navigation .odlingstips a:hover {
+    color: black;
+    margin-right: 4px;
+    text-shadow: 2px 2px white; }
+
+  .navigation .odlingstips_active a {
+    margin-right: 0px;
+    font-size: 30px; }
+
+  .navigation .info {
+    margin-top: 15px; }
+
+  .navigation .info_active {
+    margin-top: 15px; }
+
+  .navigation .recept {
+    margin-top: 15px; }
+
+  .navigation .recept_active {
+    margin-top: 15px; }
+
+  .navigation .odlingstips {
+    margin-top: 15px; }
+
+  .navigation .odlingstips_active {
+    margin-top: 15px; }
+
+  .text_and_pics {
+    grid-column: 1/15;
+    grid-row: 3/9;
+    margin-top: -15px;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    background-color: rgba(255, 255, 255, 0.685); }
+
+  .text {
+    grid-row: 1/7;
+    grid-column: 2/10;
+    margin-top: 15px;
+    margin-left: 0px; }
+
+  .text p2 {
+    font-family: 'PT Serif', serif; }
+
+  .bilder {
+    grid-column: 11/14;
+    grid-row: 1/7;
+    margin-top: 15px;
+    grid-row-gap: 20px; }
+
+  .potatis {
+    margin: 0px; }
+
+  .potatisplanta {
+    margin: 0px; } }
 .receptlista {
   grid-row: 3/8;
   grid-column: 1/6;
@@ -575,6 +678,9 @@ header .info {
 .recept5:active {
   background-color: #d6d6d6; }
 
+.recept6 {
+  display: none; }
+
 .morotter {
   grid-column: 2/3;
   grid-template-rows: repeat(3, 1fr);
@@ -607,6 +713,34 @@ header .info {
   grid-column: 1/2;
   background-image: url(../img/carrot.png); }
 
+@media only screen and (min-device-width: 900px) {
+  .receptlista {
+    grid-column: 1/15;
+    grid-row: 3/9;
+    grid-template-rows: repeat(6, 1fr); }
+
+  .receptlista h3 {
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    margin-left: 20px; }
+
+  .recept6 {
+    grid-row: 6/7;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    border: solid 2px grey; }
+
+  .receptlista .recept1, .recept2, .recept3, .recept4, .recept5, .recept6 {
+    background-color: rgba(255, 255, 255, 0.685);
+    grid-template-columns: repeat(5, 1fr); }
+
+  .receptlista .recept1:hover, .recept2:hover, .recept3:hover, .recept4:hover, .recept5:hover, .recept6:hover {
+    background-color: rgba(150, 150, 150, 0.685); }
+
+  .morotter {
+    grid-column: 5/6; } }
 .tips {
   grid-row: 3/8;
   grid-column: 1/6;

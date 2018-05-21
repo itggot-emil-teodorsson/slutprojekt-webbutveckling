@@ -111,9 +111,17 @@
 }
 
 // FAKTATEXT & BILDER
+.text_and_pics{
+    grid-column: 1/6;
+    grid-row: 3/8;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    display: grid;
+}
+
 .text{
     grid-column: 1/4;
-    grid-row: 3/8;
+    grid-row: 1/6;
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -123,9 +131,13 @@
     margin: 0px;
 }
 
+.text p2{
+    display: block;
+}
+
 .bilder{
     grid-column: 4/6;
-    grid-row: 3/8;
+    grid-row: 1/6;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 1fr);
     display: grid;
@@ -144,4 +156,128 @@
     background-image: url(../img/potato_plant.jpg);
     border: solid grey 2px;
     margin-right: 10px;
+}
+
+
+@media only screen and (min-device-width: 900px){
+    // RUBRIK & NAV
+    .titel{
+        grid-column: 1/15;
+    }
+
+    .titel h2{
+        font-size: 60px;
+    }
+
+    .navigation{
+        grid-column: 1/15;
+    }
+
+    .navigation .info a{
+        margin-left: 0px;
+        font-size: 30px;
+    }
+
+    .navigation .info a:hover{
+        color: black;
+        margin-right: 4px;
+        text-shadow: 2px 2px white;
+    }
+
+    .navigation .info_active a{
+        margin-left: 0px;
+        font-size: 30px;
+    }
+
+    .navigation .recept a{
+        font-size: 30px;
+    }
+
+    .navigation .recept a:hover{
+        color: black;
+        margin-right: 4px;
+        text-shadow: 2px 2px white;
+    }
+
+    .navigation .recept_active a{
+        font-size: 30px;
+    }
+
+    .navigation .odlingstips a{
+        margin-right: 0px;
+        font-size: 30px;
+    }
+
+    .navigation .odlingstips a:hover{
+        color: black;
+        margin-right: 4px;
+        text-shadow: 2px 2px white;
+    }
+
+    .navigation .odlingstips_active a{
+        margin-right: 0px;
+        font-size: 30px;
+    }
+
+    .navigation .info{
+        margin-top: 15px;
+    }
+
+    .navigation .info_active{
+        margin-top: 15px;
+    }
+
+    .navigation .recept{
+        margin-top: 15px;
+    }
+
+    .navigation .recept_active{
+        margin-top: 15px;
+    }
+
+    .navigation .odlingstips{
+        margin-top: 15px;
+    }
+
+    .navigation .odlingstips_active{
+        margin-top: 15px;
+    }
+
+    // FAKTATEXT & BILDER
+    .text_and_pics{
+        grid-column: 1/15;
+        grid-row: 3/9;
+        margin-top: -15px;
+        grid-template-columns: repeat(14, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        background-color: rgba(255, 255, 255, 0.685);
+    }
+
+    .text{
+        grid-row: 1/7;
+        grid-column: 2/10;
+        margin-top: 15px;
+        margin-left: 0px;
+    }
+
+    .text p2{
+        font-family: 'PT Serif', serif;
+    }
+
+    .bilder{
+        grid-column: 11/14;
+        grid-row: 1/7;
+        margin-top: 15px;
+        grid-row-gap: 20px;
+    }
+
+    .potatis{
+        margin: 0px;
+
+    }
+
+    .potatisplanta{
+        margin: 0px;
+    }
+
 }
