@@ -193,6 +193,14 @@
         margin-left: 20px;
     }
 
+    .rotfruktslista li:hover{
+        color: white;
+    }
+
+    .rotfruktslista a:hover{
+        color: white;
+    }
+
     // ARTIKLAR
     .artiklar{
         grid-row: 5/8;
