@@ -163,6 +163,7 @@
     // RUBRIK & NAV
     .titel{
         grid-column: 1/15;
+        background-image: url(../img/bunch_o_potatoes_desktop.jpg);
     }
 
     .titel h2{
@@ -279,11 +280,13 @@
 
     .potatis{
         margin: 0px;
+        background-image: url(../img/potato_desktop.jpg);
 
     }
 
     .potatisplanta{
         margin: 0px;
+        background-image: url(../img/potato_plant_desktop.jpg);
     }
 
 }

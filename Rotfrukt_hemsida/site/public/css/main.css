@@ -541,7 +541,8 @@ header .info {
 
 @media only screen and (min-device-width: 900px) {
   .titel {
-    grid-column: 1/15; }
+    grid-column: 1/15;
+    background-image: url(../img/bunch_o_potatoes_desktop.jpg); }
 
   .titel h2 {
     font-size: 60px; }
@@ -634,10 +635,12 @@ header .info {
     margin-right: 30px; }
 
   .potatis {
-    margin: 0px; }
+    margin: 0px;
+    background-image: url(../img/potato_desktop.jpg); }
 
   .potatisplanta {
-    margin: 0px; } }
+    margin: 0px;
+    background-image: url(../img/potato_plant_desktop.jpg); } }
 .receptlista {
   grid-row: 3/8;
   grid-column: 1/6;
@@ -761,7 +764,23 @@ header .info {
     background-color: rgba(150, 150, 150, 0.685); }
 
   .morotter {
-    grid-column: 5/6; } }
+    grid-column: 5/6;
+    grid-column: 5/6; }
+
+  .morot1 {
+    background-image: url(../img/Carrot_desktop.png); }
+
+  .morot2 {
+    background-image: url(../img/Carrot_desktop.png); }
+
+  .morot3 {
+    background-image: url(../img/Carrot_desktop.png); }
+
+  .morot4 {
+    background-image: url(../img/Carrot_desktop.png); }
+
+  .morot5 {
+    background-image: url(../img/Carrot_desktop.png); } }
 .tips {
   grid-row: 3/8;
   grid-column: 1/6;
