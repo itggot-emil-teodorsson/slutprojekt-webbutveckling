@@ -36,7 +36,8 @@ main{
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     display: grid;
-    background-image: url(../img/logo.jpg);
+    width: 192px; height: 71px;
+    background: url(../img/css_sprites.png) -10px -130px;
 }
 
 // MENYN
@@ -133,7 +134,8 @@ header .info{
         grid-column: 1/6;
         margin-left: 40px;
         margin-right: 47px;
-        background-image: url(../img/logo_desktop.jpg);
+        width: 342px; height: 100px;
+        background: url(../img/css_sprites.png) -10px -10px;
     }
 
     // MENYN

@@ -87,31 +87,36 @@
 .morot1{
     grid-row: 2/3;
     grid-column: 5/6;
-    background-image: url(../img/carrot.png)
+    width: 31px; height: 23px;
+    background: url(../img/css_sprites.png) -289px -130px;
 }
 
 .morot2{
     grid-row: 2/3;
     grid-column: 4/5;
-    background-image: url(../img/carrot.png)
+    width: 31px; height: 23px;
+    background: url(../img/css_sprites.png) -289px -130px;
 }
 
 .morot3{
     grid-row: 2/3;
     grid-column: 3/4;
-    background-image: url(../img/carrot.png)
+    width: 31px; height: 23px;
+    background: url(../img/css_sprites.png) -289px -130px;
 }
 
 .morot4{
     grid-row: 2/3;
     grid-column: 2/3;
-    background-image: url(../img/carrot.png)
+    width: 31px; height: 23px;
+    background: url(../img/css_sprites.png) -289px -130px;
 }
 
 .morot5{
     grid-row: 2/3;
     grid-column: 1/2;
-    background-image: url(../img/carrot.png)
+    width: 31px; height: 23px;
+    background: url(../img/css_sprites.png) -289px -130px;
 }
 
 
@@ -154,22 +159,27 @@
     }
 
     .morot1{
-        background-image: url(../img/Carrot_desktop.png);
+        width: 47px; height: 32px;
+        background: url(../img/css_sprites.png) -222px -130px;
     }
     
     .morot2{
-        background-image: url(../img/Carrot_desktop.png);
+        width: 47px; height: 32px;
+        background: url(../img/css_sprites.png) -222px -130px;    
     }
     
     .morot3{
-        background-image: url(../img/Carrot_desktop.png);
+        width: 47px; height: 32px;
+        background: url(../img/css_sprites.png) -222px -130px;    
     }
     
     .morot4{
-        background-image: url(../img/Carrot_desktop.png);
+        width: 47px; height: 32px;
+        background: url(../img/css_sprites.png) -222px -130px;    
     }
     
     .morot5{
-        background-image: url(../img/Carrot_desktop.png);
+        width: 47px; height: 32px;
+        background: url(../img/css_sprites.png) -222px -130px;    
     }
 }

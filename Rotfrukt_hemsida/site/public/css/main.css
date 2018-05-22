@@ -30,7 +30,9 @@ main {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
   display: grid;
-  background-image: url(../img/logo.jpg); }
+  width: 192px;
+  height: 71px;
+  background: url(../img/css_sprites.png) -10px -130px; }
 
 .meny {
   grid-row: 1/2;
@@ -109,7 +111,9 @@ header .info {
     grid-column: 1/6;
     margin-left: 40px;
     margin-right: 47px;
-    background-image: url(../img/logo_desktop.jpg); }
+    width: 342px;
+    height: 100px;
+    background: url(../img/css_sprites.png) -10px -10px; }
 
   .meny {
     display: none; }
@@ -715,27 +719,37 @@ header .info {
 .morot1 {
   grid-row: 2/3;
   grid-column: 5/6;
-  background-image: url(../img/carrot.png); }
+  width: 31px;
+  height: 23px;
+  background: url(../img/css_sprites.png) -289px -130px; }
 
 .morot2 {
   grid-row: 2/3;
   grid-column: 4/5;
-  background-image: url(../img/carrot.png); }
+  width: 31px;
+  height: 23px;
+  background: url(../img/css_sprites.png) -289px -130px; }
 
 .morot3 {
   grid-row: 2/3;
   grid-column: 3/4;
-  background-image: url(../img/carrot.png); }
+  width: 31px;
+  height: 23px;
+  background: url(../img/css_sprites.png) -289px -130px; }
 
 .morot4 {
   grid-row: 2/3;
   grid-column: 2/3;
-  background-image: url(../img/carrot.png); }
+  width: 31px;
+  height: 23px;
+  background: url(../img/css_sprites.png) -289px -130px; }
 
 .morot5 {
   grid-row: 2/3;
   grid-column: 1/2;
-  background-image: url(../img/carrot.png); }
+  width: 31px;
+  height: 23px;
+  background: url(../img/css_sprites.png) -289px -130px; }
 
 @media only screen and (min-device-width: 900px) {
   .receptlista {
@@ -768,19 +782,29 @@ header .info {
     grid-column: 5/6; }
 
   .morot1 {
-    background-image: url(../img/Carrot_desktop.png); }
+    width: 47px;
+    height: 32px;
+    background: url(../img/css_sprites.png) -222px -130px; }
 
   .morot2 {
-    background-image: url(../img/Carrot_desktop.png); }
+    width: 47px;
+    height: 32px;
+    background: url(../img/css_sprites.png) -222px -130px; }
 
   .morot3 {
-    background-image: url(../img/Carrot_desktop.png); }
+    width: 47px;
+    height: 32px;
+    background: url(../img/css_sprites.png) -222px -130px; }
 
   .morot4 {
-    background-image: url(../img/Carrot_desktop.png); }
+    width: 47px;
+    height: 32px;
+    background: url(../img/css_sprites.png) -222px -130px; }
 
   .morot5 {
-    background-image: url(../img/Carrot_desktop.png); } }
+    width: 47px;
+    height: 32px;
+    background: url(../img/css_sprites.png) -222px -130px; } }
 .tips {
   grid-row: 3/8;
   grid-column: 1/6;
